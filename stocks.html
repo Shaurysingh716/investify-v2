@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest in Stocks: Explore LIVE NSE/BSE on Investify</title>
+</head>
+
+<!-- Logo -->
+<link rel="shortcut icon" href="./src/InvestifyLogo-removebg-preview.png" type="image/x-icon">
+<!-- Including Css -->
+<link rel="stylesheet" href="./src/css/output.css">
+<!-- Including Icons -->
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<body class="bg-[#f8f8f8]">
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center justify-around">
+            <!-- Logo -->
+            <img src="./src/InvestifyLogo-removebg-preview.png" alt="Investify" class="h-12 relative">
+
+            <!-- Tabs -->
+            <div class="tabs flex gap-10">
+                <div class="text-green-400 text-xl font-bold hover:cursor-pointer">Explore</div>
+                <div class="text-xl font-bold hover:cursor-pointer">Investments</div>
+            </div>
+
+            <!-- Search Box -->
+            <div
+                class="flex flex-col gap-2.5 items-center p-4 space-x-6 bg-white rounded-xl shadow-lg hover:shadow-xl sm:flex-row">
+                <div class="flex bg-gray-100 p-2 w-72 space-x-4 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 opacity-30" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <input class="bg-gray-100 outline-none" type="text" placeholder="Company, Stock..." />
+                </div>
+                <div
+                    class="bg-green-400 hover:bg-green-700 py-2 px-5 text-white font-semibold rounded-lg hover:shadow-lg transition duration-3000 cursor-pointer">
+                    <span>Search</span>
+                </div>
+            </div>
+
+            <!-- Icons -->
+            <div class="icons flex gap-5">
+                <span
+                    class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-200 hover:rounded-full px-2 py-2">notifications</span>
+                <span
+                    class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-200 hover:rounded-full px-2 py-2">account_balance_wallet</span>
+                <span
+                    class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-200 hover:rounded-full px-2 py-2">shopping_cart</span>
+                <span
+                    class="material-symbols-outlined ml-4 hover:cursor-pointer hover:bg-gray-200 hover:rounded-full px-2 py-2">account_circle</span>
+            </div>
+        </div>
+
+        <!-- Stocks Tab -->
+        <div class="row2 flex w-[85vw] mx-auto font-semibold">
+            <div class="text-green-400 text-lg underline underline-offset-8">Stocks</div>
+        </div>
+        <hr class="mt-1">
+    </header>
+
+    <main class="text-[#44475b]">
+        <div class="main flex justify-evenly mx-auto ml-5 mr-5">
+            <div class="flex flex-col gap-14 justify-around mt-8">
+                <!-- Index -->
+                <div class="index-section text-[#44475b]">
+                    <h1 class="text-xl mb-5 font-semibold">Index</h1>
+                    <div class="indexes flex font-semibold gap-3 w-[50vw] overflow-x-scroll">
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>Nifty 50</h3>
+                            <div class="flex gap-2">
+                                <div>24,990.90</div>
+                                <div class="text-red-400">-311.00(1.24%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>SENSEX</h3>
+                            <div class="flex gap-2">80,981.76 <span class="text-red-400">-885.60(1.08%)</span></div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>BANKNIFTY</h3>
+                            <div class="flex gap-2">51,350.15 <span class="text-red-400">-213.85(0.41%)</span></div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>BANKNIFTY</h3>
+                            <div class="flex gap-2">51,350.15 <span class="text-red-400">-213.85(0.41%)</span></div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>BANKNIFTY</h3>
+                            <div class="flex gap-2">51,350.15 <span class="text-red-400">-213.85(0.41%)</span></div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer">
+                            <h3>BANKNIFTY</h3>
+                            <div class="flex gap-2">51,350.15 <span class="text-red-400">-213.85(0.41%)</span></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <!-- Most Bought -->
+                <div class="most-bought-section text-[#44475b]">
+                    <h1 class="text-xl mb-5 font-semibold">Most Bought on Investify</h1>
+                    <div class="companies flex font-semibold gap-3 w-[50vw] flex-wrap">
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/tata_steel_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="tata_steel_logo">
+                            </div>
+                            <h3>Tata Steel</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>158.22</div>
+                                </div>
+                                <div class="text-red-400">-4.84 (2.79%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/zomato_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="zomato_logo">
+                            </div>
+                            <h3>Zomato</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>262.34</div>
+                                </div>
+                                <div class="text-green-400">28.25 (12.07%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/gtl_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="gtl_logo">
+                            </div>
+                            <h3>GTL Infrastructure</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>2.88</div>
+                                </div>
+                                <div class="text-green-400">0.13 (4.73%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/suzlon_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="suzlon_logo">
+                            </div>
+                            <h3>Sulzon Energy</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>71.35</div>
+                                </div>
+                                <div class="text-green-400">3.37 (4.96%)</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Products and Tools -->
+                <div class="product-section text-[#44475b]">
+                    <h1 class="text-xl mb-5 font-semibold">Products & tools</h1>
+                    <div class="tools flex gap-8 flex-wrap">
+                        <div class="bg-[#f8f8f8] h-[18vh] w-[10vw] flex flex-col gap-3 items-center justify-around hover:cursor-pointer">
+                            <img src="./src/meter-svgrepo-com.svg" class="h-14 mt-4" alt="calender">
+                            <h3 class="font-semibold">F&O</h3>
+                        </div>
+
+                        <div class="bg-[#f8f8f8] h-[18vh] w-[10vw] flex flex-col gap-3 items-center justify-around hover:cursor-pointer">
+                            <img src="./src/calender-svgrepo-com.svg" class="h-14 mt-4" alt="calender">
+                            <h3 class="font-semibold">Events</h3>
+                        </div>
+
+                        <div class="bg-[#f8f8f8] h-[18vh] w-[10vw] flex flex-col gap-3 items-center justify-around hover:cursor-pointer">
+                            <img src="./src/sand-clock-time-svgrepo-com.svg" class="h-14 mt-4" alt="calender">
+                            <h3 class="font-semibold">Intraday</h3>
+                        </div>
+
+                        <div class="bg-[#f8f8f8] h-[18vh] w-[10vw] flex flex-col gap-3 items-center justify-around hover:cursor-pointer">
+                            <img src="./src/loud-speaker-svgrepo-com.svg" class="h-14 mt-4" alt="calender">
+                            <h3 class="font-semibold">IPO</h3>
+                        </div>
+
+                        <div class="bg-[#f8f8f8] h-[18vh] w-[10vw] flex flex-col gap-3 items-center justify-around hover:cursor-pointer">
+                            <img src="./src/filter-svgrepo-com.svg" class="h-14 mt-4" alt="calender">
+                            <h3 class="font-semibold">Screener</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Gainers -->
+                <div class="gainer-section text-[#44475b]">
+                    <h1 class="text-xl mb-5 font-semibold">Top Gainers</h1>
+                    <div class="content flex flex-col gap-4">
+                        <!-- Buttons -->
+                        <div class="btn flex gap-3">
+                            <button
+                                class="bg-green-100 text-green-400 font-semibold py-2 px-3 rounded-full text-sm">Large</button>
+                            <button
+                                class="text-gray-500 border border-[#e9e9eb] font-semibold py-2 px-3 rounded-full text-sm">Mid</button>
+                            <button
+                                class="text-gray-500 border border-[#e9e9eb] font-semibold py-2 px-3 rounded-full text-sm">Small</button>
+                        </div>
+
+                        <!-- Companies -->
+                        <div class="companies flex font-semibold gap-3 w-[50vw] flex-wrap">
+                            <div
+                                class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                                <div><img src="./src/zomato_logo.png"
+                                        class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                        alt="zomato_logo">
+                                </div>
+                                <h3>Zomato</h3>
+                                <div class="mt-10">
+                                    <div class="flex items-center">
+                                        <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                        <div>262.34</div>
+                                    </div>
+                                    <div class="text-green-400">28.25 (12.07%)</div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                                <div><img src="./src/jcb_logo.png"
+                                        class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                        alt="jcb_logo">
+                                </div>
+                                <h3>JCB</h3>
+                                <div class="mt-10">
+                                    <div class="flex items-center">
+                                        <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                        <div>7,220.50</div>
+                                    </div>
+                                    <div class="text-green-400">316.05 (4.58%)</div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                                <div><img src="./src/divi_logo.png"
+                                        class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                        alt="divi_logo">
+                                </div>
+                                <h3>Divi's Lab</h3>
+                                <div class="mt-10">
+                                    <div class="flex items-center">
+                                        <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                        <div>4,991.25</div>
+                                    </div>
+                                    <div class="text-green-400">103.35.13 (2.11%)</div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                                <div><img src="./src/suzlon_logo.png"
+                                        class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                        alt="IRFC">
+                                </div>
+                                <h3>IRFC</h3>
+                                <div class="mt-10">
+                                    <div class="flex items-center">
+                                        <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                        <div>192.33</div>
+                                    </div>
+                                    <div class="text-green-400">2.55 (1.34%)</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ETF -->
+                <div class="ETF-section text-[#44475b] ">
+                    <h1 class="text-xl mb-7 font-semibold">ETF's by Investify</h1>
+                    <div class="flex flex-col gap-3 border border-[#e9e9eb] bg-[#ffffff] rounded-xl px-4 py-3 hover:cursor-pointer hover:scale-[1.02] duration-300">
+                        <img src="./src/InvestifyLogo-removebg-preview.png" alt="Investify" class="h-10 w-[150px]">
+                        <h1 class="font-semibold">Investify Nifty EV and New Automotive ETF</h1>
+                        <h2 class="font-semibold text-gray-400">NFO</h2>
+                    </div>
+                </div>
+
+                <!-- Stcoks in News -->
+                <div class="stock-section text-[#44475b]">
+                    <h1 class="text-xl mb-7 font-semibold">Stocks in News</h1>
+
+                    <!-- Companies -->
+                    <div class="companies flex font-semibold gap-3 w-[50vw] flex-wrap">
+                        <div
+                            class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/infosys_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                    alt="infosys_logo">
+                            </div>
+                            <h3>Infosys</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>1,821.20</div>
+                                </div>
+                                <div class="text-red-400">-31.40 (1.69%)</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/sbi_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                    alt="sbi_logo">
+                            </div>
+                            <h3>SBI</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>847.75</div>
+                                </div>
+                                <div class="text-red-400">-14.85 (1.72%)</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/boi_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                    alt="boi_logo">
+                            </div>
+                            <h3>Bank of India</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>126.24</div>
+                                </div>
+                                <div class="text-green-400">0.13 (0.10%)</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/reliance_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12"
+                                    alt="reliance_logo">
+                            </div>
+                            <h3>Reliance Industries</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>2.998.65</div>
+                                </div>
+                                <div class="text-red-400">-31.95 (1.05%)</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+
+                <!-- Top Losers -->
+                <div class="gainer-section text-[#44475b]">
+                    <h1 class="text-xl mb-5 font-semibold">Top Losers</h1>
+                    <div class="content flex flex-col gap-4">
+                        <!-- Buttons -->
+                        <div class="btn flex gap-3">
+                            <button
+                                class="bg-green-100 text-green-400 font-semibold py-2 px-3 rounded-full text-sm">Large</button>
+                            <button
+                                class="text-gray-500 border border-[#e9e9eb] font-semibold py-2 px-3 rounded-full text-sm">Mid</button>
+                            <button
+                                class="text-gray-500 border border-[#e9e9eb] font-semibold py-2 px-3 rounded-full text-sm">Small</button>
+                        </div>
+
+                        <!-- Companies -->
+                    
+                    <div class="companies flex font-semibold gap-3 w-[50vw] flex-wrap">
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/eicher_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="eicher_logo">
+                            </div>
+                            <h3>Eicher Motors</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>4,720.70</div>
+                                </div>
+                                <div class="text-red-400">-242.10 (4.87%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/tata_steel_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="tata_motors">
+                            </div>
+                            <h3>Tata Motors - DVR</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>747.15</div>
+                                </div>
+                                <div class="text-red-400">-36.40 (4.65%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/tata_steel_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="tata_motors">
+                            </div>
+                            <h3>Tata Motors</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>1,096.56</div>
+                                </div>
+                                <div class="text-red-400">-47.75 (4.17%)</div>
+                            </div>
+                        </div>
+
+                        <div class="card border flex flex-col gap-2 px-4 py-3 rounded-xl border-[#e9e9eb] bg-[#ffffff] hover:cursor-pointer hover:scale-[1.02] duration-300">
+                            <div><img src="./src/ford_logo.png"
+                                    class="bg-white border border-[#e9e9eb] rounded-xl h-10 w-12" alt="ford_logo">
+                            </div>
+                            <h3>Ford</h3>
+                            <div class="mt-10">
+                                <div class="flex items-center">
+                                    <img src="./src/rupee_icon.png" class="h-3 w-3" alt="">
+                                    <div>5,538.25</div>
+                                </div>
+                                <div class="text-red-400">-232.55 (4.03%)</div>
+                            </div>
+                        </div>
+
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Watchlist -->
+            <div class="watchlists mt-14">
+                <h1 class="font-semibold text-xl">All Watchlists</h1>
+                <div
+                    class="watch-container border flex flex-col px-4 py-3 rounded-xl border-[#e9e9eb] mt-6 w-[25vw] bg-[#ffffff]">
+                    <div class="user font-semibold">User's Watchlist</div>
+                    <div class="mb-3">5 items</div>
+                    <hr>
+                    <div class="text-green-400 flex my-4 gap-3 hover:cursor-pointer flex-col md:flex-row"><span
+                            class="material-symbols-outlined">add_circle</span>Create New Watchlist</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="text-gray-600 body-font">
+        <hr class="mt-10">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Products</h2>
+                    <nav class="list-none mb-10">
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Stocks</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Future and Option</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">IPO</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Mutual Funds</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">NFO</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Investify</h2>
+                    <nav class="list-none mb-10">
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">About Us</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Pricing</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Blog</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Media & Press</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Careers</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Help and Support</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Trust and Safety</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Quick Links</h2>
+                    <nav class="list-none mb-10">
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">AMC Mutual Funds</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Calculators</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Glossary</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Open Demat Account</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Investify Digest</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Sitemap</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-600 hover:text-gray-800 hover:cursor-pointer">Income Tax Calculator</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+                    <div
+                        class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                        <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                            <label for="footer-field" class="leading-7 text-sm text-gray-600">Email</label>
+                            <input type="text" id="footer-field" name="footer-field"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <button
+                            class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Submit</button>
+                    </div>
+                    <p class="text-gray-500 text-sm mt-2 md:text-left text-center">Subscribe to get
+                        <br class="lg:block hidden">latest information
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img src="./src/InvestifyLogo-removebg-preview.png" class="h-12" alt="">
+
+                </a>
+                <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024. All rights reserved.
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5 hover:cursor-pointer" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5 hover:cursor-pointer" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5 hover:cursor-pointer" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5 hover:cursor-pointer" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
